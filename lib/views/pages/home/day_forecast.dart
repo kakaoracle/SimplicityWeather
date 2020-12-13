@@ -85,7 +85,7 @@ class DayForecastView extends StatelessWidget {
           ),
           backgroundColor: Colors.transparent,
           context: context,
-          builder: (context, scrollController) => BlurRectWidget(
+          builder: (context) => BlurRectWidget(
             color: WeatherUtils.getColor(WeatherUtils.convertWeatherType(
                     modelEntity?.result?.realtime?.skycon))[0]
                 .withAlpha(60),

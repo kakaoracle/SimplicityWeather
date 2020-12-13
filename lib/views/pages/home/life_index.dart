@@ -140,7 +140,7 @@ class LifeIndexView extends StatelessWidget {
             ),
             backgroundColor: Colors.transparent,
             context: context,
-            builder: (context, scrollController) => BlurRectWidget(
+            builder: (context) => BlurRectWidget(
               color: WeatherUtils.getColor(WeatherUtils.convertWeatherType(skycon))[0].withAlpha(60),
               child: Container(
                 height: 0.5.hp,

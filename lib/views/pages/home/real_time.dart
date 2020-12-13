@@ -122,7 +122,7 @@ class RealtimeView extends StatelessWidget {
                   ),
                   backgroundColor: Colors.transparent,
                   context: context,
-                  builder: (context, scrollController) =>
+                  builder: (context) =>
                       BlurRectWidget(
                         color: WeatherUtils.getColor(
                             WeatherUtils.convertWeatherType(
